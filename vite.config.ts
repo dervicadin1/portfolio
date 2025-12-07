@@ -5,6 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
+    base: 'portfolio'   // <<— OVDJE STAVI TAČNO IME REPOZITORIJA
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
